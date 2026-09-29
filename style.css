@@ -272,6 +272,21 @@ p {
     font-weight: bold;
     text-decoration: underline;
 }
+.photo-parcours {
+    text-align: center;
+    margin: 20px auto;
+}
+
+div.photo-parcours img {
+    position: static;
+    opacity: 1;
+    transform: none;
+    filter: none;
+    pointer-events: auto;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
 @media (max-width: 768px) {
     h1 {
         font-size: 28px;
