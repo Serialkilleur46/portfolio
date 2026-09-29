@@ -1,0 +1,274 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    background-color: #4400EE0F;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+ h1 {
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #2D01DD4A;
+    text-align: center;
+    color: rgb(255, 248, 248);
+    font-size: 48px;
+}
+
+nav {
+    background-color: #2D01DD4A;
+    padding: 18px;
+    text-align:right;
+
+}
+
+nav a {
+    color: white;
+    font-size: 25px;
+    margin-right: 50px;
+}
+
+a {
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+}
+#a-propos {
+    margin-top: 0px;
+    margin-left: 400px;
+    position: 0;
+    position: absolute 
+400Px auto;
+    padding: 160px;
+}
+img {
+    opacity: 0;
+    transform: translate(-50%, calc(-50% + 20px));
+    transition: all 0.4s;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    pointer-events: none;
+    filter: blur(2px);
+}
+div:hover img {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+p {
+    color: blacK;
+    font-size: 15px;
+}
+
+
+#CV {
+    border: 2px #323035;
+    width: fit-content;
+    background-color:#D9EDFF5D;
+    position: absolute;
+    bottom: 30%;
+    left: 30%;
+}
+#CV a {
+    background-color: transparent;
+    position: relative;
+    z-index: 1;
+}
+#CV:hover a {
+    color:rgb(0, 183, 255);
+}
+
+
+#project {
+    border: 2px #323035;
+    width: fit-content;
+    background-color:transparent;
+    position: absolute;
+    bottom: 30%;
+    left: 47%;
+
+}
+#project a {
+    color: rgb(0, 0, 0);
+    position: relative;
+    z-index: 1;
+}
+#project:hover a {
+    color:rgb(0, 183, 255);
+}
+
+
+#contact {
+    border: 2px #323035;
+    width: fit-content;
+    background-color:transparent;
+    position: absolute;
+    bottom: 30%;
+    left: 65%;
+}
+#contact a {
+    color: rgb(0, 0, 0);
+    position: relative;
+    z-index: 1;
+}
+#contact:hover a {
+    color:rgb(0, 183, 255);
+}
+
+#contact-email, #contact-tel, #contact-linkedin, #contact-github, #contact-ville {
+    border: 2px solid #323035;
+    background-color: #D9EDFF5D;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 15px;
+    font-size: 25px;
+}
+
+
+#intro-contact {
+    margin-top: 159px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 25px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+#moi {
+    position: absolute;
+    top: 420px;
+    left: 400px;
+}
+#moi img {
+    filter: blur(0px);
+    opacity: 1;
+}
+#Samir-KAFFEL {
+    font-size: 100%;
+}
+#hi {
+    position: absolute;
+    top: 420px;
+    left: 400px;
+}
+
+#hi img {
+    filter: blur(0px);
+    opacity: 1;
+
+}
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.categorie {
+    border: 2px solid #323035;
+    background-color: #D9EDFF5D;
+    width: 300px;
+    padding: 15px;
+}
+
+.categorie ul {
+    padding-left: 20px;
+}
+
+.categorie li {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+.timeline {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 0 20px;
+    border-left: 4px solid #323035;
+}
+
+.etape {
+    border: 2px solid #323035;
+    background-color: #D9EDFF5D;
+    padding: 15px;
+    margin: 0 0 25px 20px;
+}
+
+.etape .date {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.etape h3 {
+    margin: 8px 0;
+}
+
+.etape .lieu {
+    font-style: italic;
+    font-size: 16px;
+}
+#competences, #loisirs {
+    border: 2px #323035;
+    width: fit-content;
+    background-color: transparent;
+    position: absolute;
+    bottom: 20%;
+}
+
+#competences {
+    top: 85%;
+    left: 40%;
+}
+
+#loisirs {
+    top: 85%;
+    left: 60%;
+}
+.titre-section {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.realisations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.realisation {
+    border: 2px solid #323035;
+    background-color: #D9EDFF5D;
+    width: 300px;
+    padding: 15px;
+}
+
+.realisation .miniature {
+    opacity: 1;
+    position: static;
+    transform: none;
+    filter: none;
+    pointer-events: auto;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.meta {
+    font-style: italic;
+    font-size: 14px;
+}
+
+.details {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+}
